@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "Historie 1",
+    "Description": "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie.",
+    "Image": "test-image.jpeg",
+    "HistoryAudioId": 89384,
+    "HistoryAudio": "the-destroyer.mp3",
+    "MusicAudioId": 59485,
+    "MusicAudio": "rockstar.mp3"
+  },
+  {
+    "Id": 2,
+    "Name": "Historie 2",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum.",
+    "Image": "test-image.jpeg",
+    "HistoryAudioId": 8913465,
+    "HistoryAudio": "the-destroyer.mp3",
+    "MusicAudioId": 597525,
+    "MusicAudio": "rockstar.mp3"
+  },
+  {
+    "Id": 3,
+    "Name": "Historie 3",
+    "Description": "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.",
+    "Image": "test-image.jpeg",
+    "HistoryAudioId": 134643,
+    "HistoryAudio": "the-destroyer.mp3",
+    "MusicAudioId": 5949542,
+    "MusicAudio": "rockstar.mp3"
+  },
+  {
+    "Id": 4,
+    "Name": "Historie 4",
+    "Description": "Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis.",
+    "Image": "test-image.jpeg",
+    "HistoryAudioId": 0,
+    "HistoryAudio": null,
+    "MusicAudioId": 0,
+    "MusicAudio": "the-destroyer.mp3"
+  },
+  {
+    "Id": 5,
+    "Name": "Historie 5",
+    "Description": "Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus.",
+    "Image": "test-image.jpeg",
+    "HistoryAudioId": 71349,
+    "HistoryAudio": "the-destroyer.mp3",
+    "MusicAudioId": 498134,
+    "MusicAudio": "rockstar.mp3"
+  },
+  {
+    "Id": 6,
+    "Name": "Historie 6",
+    "Description": "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.",
+    "Image": "test-image.jpeg",
+    "HistoryAudioId": 984781,
+    "HistoryAudio": "the-destroyer.mp3",
+    "MusicAudioId": 134673,
+    "MusicAudio": "rockstar.mp3"
+  },
+  {
+    "Id": 1212,
+    "Name": "Haydar",
+    "Description": "Moooo",
+    "Image": null,
+    "HistoryAudioId": 0,
+    "HistoryAudio": null,
+    "MusicAudioId": 0,
+    "MusicAudio": null
+  },
+  {
+    "Id": 111,
+    "Name": "Moo",
+    "Description": "Mooooo",
+    "Image": null,
+    "HistoryAudioId": 0,
+    "HistoryAudio": null,
+    "MusicAudioId": 0,
+    "MusicAudio": null
+  }
+]

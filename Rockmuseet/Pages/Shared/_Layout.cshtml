@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Rockmuseet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Rockmuseet</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/Histories/CreateHistory">Create a History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/Histories/UpdateHistory">Update A History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/Histories/DeleteHistory">Delete A History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Index">Forside</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Histories">Historier</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted navbar-dark bg-dark">
+        <div class="container">
+            &copy; 2022 - Rockmuseet - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

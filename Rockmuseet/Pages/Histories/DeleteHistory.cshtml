@@ -1,0 +1,82 @@
+﻿@page
+@model Rockmuseet.DeleteHistory
+@{ ViewData["Title"] = "Delete a History"; }
+
+
+<style>
+    h5 {
+        text-align: center;
+        color: blue
+    }
+</style>
+
+
+<h6 style="color:black"> Delete a History</h6>
+<form class=" from-horizontal" method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class=" from-group" style=" width : 25%">
+        <label asp-for="@Model.history.Id" class=" col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="@Model.history.Id" type="text" class=" from-control" />
+            <span asp-validation-for="@Model.history.Id" class=" text-danger"></span>
+        </div>
+    </div>
+    <div style=" width : 25%" class=" from-group">
+        <label asp-for="@Model.history.Name" class=" col-sm-2 control-label"></label>
+        <div class=" col-sm-10">
+            <input asp-for="@Model.history.Name" type="text" class=" from-control">
+            <span asp-validation-for="@Model.history.Name" class=" text-danger"></span>
+        </div>
+    </div>
+    <div style="width:25%" class="form-group">
+        <label asp-for="@Model.history.Description" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="@Model.history.Description" type="text" class="form-control">
+            <span asp-validation-for="@Model.history.Description" class="text-danger"></span>
+        </div>
+    </div>
+    <div style="width:25%" class="form-group">
+        <label asp-for="@Model.history.Image" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="@Model.history.Image" type="text" class="form-control">
+            <span asp-validation-for="@Model.history.Image" class="text-danger"></span>
+        </div>
+    </div>
+    <div style="width:25%" class="form-group">
+        <label asp-for="@Model.history.MusicAudioId" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="@Model.history.MusicAudioId" type="text" class="form-control">
+            <span asp-validation-for="@Model.history.MusicAudioId" class="text-danger"></span>
+        </div>
+    </div>
+    <div style="width:25%" class="form-group">
+        <label asp-for="@Model.history.MusicAudio" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="@Model.history.MusicAudio" type="text" class="form-control">
+            <span asp-validation-for="@Model.history.MusicAudio" class="text-danger"></span>
+        </div>
+        <div style="width:25%" class="form-group">
+            <label asp-for="@Model.history.HistoryAudioId" class="col-sm-2 control-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="@Model.history.HistoryAudioId" type="text" class="form-control">
+                <span asp-validation-for="@Model.history.HistoryAudioId" class="text-danger"></span>
+            </div>
+            <div style="width:25%" class="form-group">
+                <label asp-for="@Model.history.HistoryAudio" class="col-sm-2 control-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="@Model.history.HistoryAudio" type="text" class="form-control">
+                    <span asp-validation-for="@Model.history.HistoryAudio" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="border-light">
+                Delete History
+            </button>
+        </div>
+    </div>
+
+</form>
