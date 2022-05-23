@@ -1,6 +1,6 @@
 ﻿@page
 @model Rockmuseet.UpdateHistoryModel
-@{ ViewData["Title"] = "CreateHistory"; }
+@{ ViewData["Title"] = "UpdateHistory"; }
 
 
 
@@ -12,7 +12,7 @@
 </style>
 
 
-<h6 style="color:black"> Create a new History</h6>
+<h6 style="color:black"> Update a Media</h6>
 
 <form method="get">
     <label asp-for="@Model.History.Id" class=" col-sm-2 control-label"></label>
@@ -67,13 +67,13 @@
             <input asp-for="@Model.History.MusicAudio" type="text" class="form-control">
             <span asp-validation-for="@Model.History.MusicAudio" class="text-danger"></span>
         </div>
-        <div style="width:25%" class="form-group">
+        <div style="width:100%" class="form-group">
             <label asp-for="@Model.History.HistoryAudioId" class="col-sm-2 control-label"></label>
             <div class="col-sm-10">
                 <input asp-for="@Model.History.HistoryAudioId" type="text" class="form-control">
                 <span asp-validation-for="@Model.History.HistoryAudioId" class="text-danger"></span>
             </div>
-            <div style="width:25%" class="form-group">
+            <div style="width:100%" class="form-group">
                 <label asp-for="  @Model.History.HistoryAudio" class="col-sm-2 control-label"></label>
                 <div class="col-sm-10">
                     <input asp-for="  @Model.History.HistoryAudio" type="text" class="form-control">
@@ -87,7 +87,7 @@
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <button type="submit" class="border-light">
-                Update a History
+                Update a Media
             </button>
         </div>
     </div>

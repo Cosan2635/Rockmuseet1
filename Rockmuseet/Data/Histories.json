@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "Name": "Historie 1",
-    "Description": "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie.",
+    "Description": "aa",
     "Image": "test-image.jpeg",
     "HistoryAudioId": 89384,
     "HistoryAudio": "the-destroyer.mp3",
@@ -58,25 +58,5 @@
     "HistoryAudio": "the-destroyer.mp3",
     "MusicAudioId": 134673,
     "MusicAudio": "rockstar.mp3"
-  },
-  {
-    "Id": 1212,
-    "Name": "Haydar",
-    "Description": "Moooo",
-    "Image": null,
-    "HistoryAudioId": 0,
-    "HistoryAudio": null,
-    "MusicAudioId": 0,
-    "MusicAudio": null
-  },
-  {
-    "Id": 111,
-    "Name": "Moo",
-    "Description": "Mooooo",
-    "Image": null,
-    "HistoryAudioId": 0,
-    "HistoryAudio": null,
-    "MusicAudioId": 0,
-    "MusicAudio": null
   }
 ]
